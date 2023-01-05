@@ -1,0 +1,59 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  text-align: center;
+}
+
+h1 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+h2 {
+  font-size: 50px;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+button {
+  border: none;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
+  font-weight: bold;
+  width: 200px;
+  margin-bottom: 5px;
+  border-radius: 5px;
+}
+
+#increment-btn {
+  background: black;
+}
+
+#save-btn {
+  background: purple;
+}
+
+.content-box {
+  max-width: 80%;
+  margin: 25px auto;
+  background-color: #ee99de;
+  display: inline-block;
+  padding: 25px;
+  border-radius: 10px;
+}
+
+.content-box::before {
+  content: "";
+  background-image: url("https://i.postimg.cc/wvVb3Qv3/Pngtree-programming-and-web-technology-vector-4089305.png");
+  background-size: cover;
+  background-position: 50%;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  background-repeat: no-repeat;
+  opacity: 0.3;
+  z-index: -1;
+}
